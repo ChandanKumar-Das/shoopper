@@ -1,6 +1,6 @@
 // pages/cart.js
 import { useSelector, useDispatch } from 'react-redux'
-import { removeFromCart } from '@/redux/cartSlice'
+import { removeFromCart } from '@/lib/features/cartSlice' 
 
 export default function CartPage() {
   const cartItems = useSelector((state) => state.cart.cartItems)
