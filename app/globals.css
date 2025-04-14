@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+  
+/* .bg-hero {
+ // background-image: url('../public/bghero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+/* styles/globals.css */
+
+body {
+  @apply bg-white text-black transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-gray-900 text-white;
+}
