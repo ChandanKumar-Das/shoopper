@@ -51,10 +51,12 @@ const Navbar = () => {
         <ThemeToggle/>
           <h1 className='text-lg underline cursor-pointer'>Sign In</h1>
         <div className="cursor-pointer flex relative">
+        <Link href="/cart">
           <BsBag className="text-2xl" />
           <div className="bg-red-500 absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-white rounded-full flex justify-center items-center">
             {cartCount.cartItems.length}
           </div>
+          </Link>
         </div>
         
         </div>

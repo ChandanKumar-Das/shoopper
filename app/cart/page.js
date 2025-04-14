@@ -1,4 +1,5 @@
 // pages/cart.js
+'use client'
 import { useSelector, useDispatch } from 'react-redux'
 import { removeFromCart } from '@/lib/features/cartSlice' 
 
